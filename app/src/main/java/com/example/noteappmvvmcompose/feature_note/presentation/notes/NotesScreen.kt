@@ -18,7 +18,6 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Sort
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Sort
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.runtime.Composable
 import androidx.compose.material3.Icon
@@ -35,9 +34,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.example.noteappmvvmcompose.feature_note.domain.model.NoteEntity
-import com.example.noteappmvvmcompose.feature_note.domain.util.NoteOrder
-import com.example.noteappmvvmcompose.feature_note.domain.util.Screen
+import com.example.noteappmvvmcompose.feature_note.presentation.util.Screen
 import com.example.noteappmvvmcompose.feature_note.presentation.notes.components.NoteItem
 import com.example.noteappmvvmcompose.feature_note.presentation.notes.components.NotesViewModel
 import com.example.noteappmvvmcompose.feature_note.presentation.notes.components.OrderSection
