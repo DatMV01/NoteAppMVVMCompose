@@ -40,6 +40,7 @@ import com.example.noteappmvvmcompose.feature_note.presentation.notes.components
 import com.example.noteappmvvmcompose.feature_note.presentation.notes.components.OrderSection
 import kotlinx.coroutines.launch
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.SnackbarHost
 
 @Composable
 fun NotesScreen(
@@ -53,7 +54,7 @@ fun NotesScreen(
 
     Scaffold(
 
-
+         snackbarHost = {SnackbarHost(hostState = snackbarHostState)} ,
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
