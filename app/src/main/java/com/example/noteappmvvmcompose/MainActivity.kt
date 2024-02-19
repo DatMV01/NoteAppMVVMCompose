@@ -1,4 +1,4 @@
-addpackage com.example.noteappmvvmcompose
+package com.example.noteappmvvmcompose
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
