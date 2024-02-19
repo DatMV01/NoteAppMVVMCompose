@@ -1,5 +1,6 @@
 package com.example.noteappmvvmcompose.feature_note.domain.model
 
+
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.example.noteappmvvmcompose.ui.theme.RedOrange
@@ -15,8 +16,10 @@ data class NoteEntity(
     val timestamp: Long,
     val color: Int,
     @PrimaryKey val id: Int? = null
-){
-    companion object{
+) {
+    companion object {
         val noteColors = listOf(RedOrange, LightGreen, Violet, BabyBlue, RedPink)
     }
+
+    class InvalidNoteException(message: String) : Exception(message)
 }
