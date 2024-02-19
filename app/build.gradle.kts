@@ -77,4 +77,15 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.50")
     kapt("com.google.dagger:hilt-android-compiler:2.50")
 
+    val nav_version = "2.7.7"
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-compose:$nav_version")
+
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+
+    implementation ("androidx.compose.material:material-icons-extended:1.6.1")
+
+
+
 }

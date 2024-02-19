@@ -3,11 +3,11 @@ package com.example.noteappmvvmcompose.feature_note.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.noteappmvvmcompose.ui.theme.RedOrange
-import com.example.noteappmvvmcompose.ui.theme.LightGreen
-import com.example.noteappmvvmcompose.ui.theme.Violet
 import com.example.noteappmvvmcompose.ui.theme.BabyBlue
+import com.example.noteappmvvmcompose.ui.theme.LightGreen
+import com.example.noteappmvvmcompose.ui.theme.RedOrange
 import com.example.noteappmvvmcompose.ui.theme.RedPink
+import com.example.noteappmvvmcompose.ui.theme.Violet
 
 @Entity
 data class NoteEntity(
